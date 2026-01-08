@@ -5,6 +5,7 @@ body {
 .container {
   width: 1440px;
   margin: 0 auto;
+  padding: 0;
 }
 
 a {
@@ -26,14 +27,12 @@ a {
   text-align: center;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  
   box-sizing: border-box;
-  margin-top: 188px;
-  margin-right: 472px;
-  margin-left: 472px;
-  
-  
-}
+  padding-top: 188px;
+  padding-bottom: 48px;
+  padding-right: 472px;
+  padding-left: 472px;
+  }
 
 .page-subtitle {
   font-family: "Roboto", sans-serif;
@@ -41,7 +40,7 @@ a {
   color: #2e2f42;
   font-size: 36px;
   font-weight: 700;
-  text-align: left;
+  text-align: center;
   line-height: 1.11;
   letter-spacing: 0.02em;
   box-sizing: border-box;
@@ -61,12 +60,12 @@ a {
   letter-spacing: 0.02em;
   text-decoration: none;
   box-sizing: border-box;
-  padding-top: 25.5px;
-    padding-bottom: 25.5px;
-    padding-left: 156px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-left: 156px;
   display: flex;
   flex-direction: row;
-  
+  align-items: center;
 
 }
 
@@ -148,7 +147,7 @@ box-sizing: border-box;
 flex-direction: column;
 align-content: center;
 justify-content: center;
-
+align-items: center;
 height: 600px;
 }
 
@@ -160,7 +159,8 @@ height: 600px;
   margin-top: 672;
   margin-bottom: 0;
   padding-right: 156px;
-    gap: 24px;
+  padding-left: 156px;
+  gap: 24px;
   
 }
 
@@ -170,14 +170,12 @@ height: 600px;
   color: inherit;
   font-size: 20px;
   font-weight: 500;
-  text-align: :left;
+  text-align: center;
   line-height: 1.2;
   letter-spacing: 0.02em;
   box-sizing: border-box;
   width: 264;
   height: 104;
-
-  
   }
 
 
@@ -186,10 +184,10 @@ height: 600px;
       flex-direction: row;
       box-sizing: border-box;
       padding-top: 72px;
-      padding-left: 156px;
       gap: 24px;
       align-content: center;
       justify-content: center;
+      align-items: center;
     }
 
 
@@ -199,11 +197,13 @@ height: 600px;
   color: #2E2F42;
   font-size: 20px;
   font-weight: 500;
-  text-align: : centre;
+  text-align: : center;
   line-height: 1.2;
   letter-spacing: 0.02em;
   box-sizing: border-box;
   margin-top: 32px;
+  align-content: center;
+
 }
 
 .duty {
@@ -212,11 +212,12 @@ height: 600px;
   color: #434455;
   font-size: 16px;
   font-weight: 400;
-  text-align: : centre;
+  text-align: : center;
   line-height: 1.5;
   letter-spacing: 0.02em;
   box-sizing: border-box;
   margin-top: 8px;
+  align-items: center;
 }
 
 .sub-title {
@@ -225,7 +226,7 @@ height: 600px;
   color: #2E2F42;
   font-size: 36px;
   font-weight: bold;
-  text-align: : centre;
+  text-align: : center;
   line-height: 1.11;
   letter-spacing: 0.02em;
 }
@@ -238,7 +239,7 @@ height: 600px;
   color: white;
   font-size: 16px;
   font-weight: 500;
-  text-align: centre;
+  text-align: center;
   line-height: 1.5;
   letter-spacing: 0.04em;
   border: 1px white;
@@ -246,9 +247,7 @@ height: 600px;
   box-sizing: border-box;
   width: 169px;
   height: 56px;
-  margin-left: 636px;
-  margin-top: 48px;
-}
+  }
 
 .page-button:hover {
   background-color: #404BBF;
@@ -257,15 +256,32 @@ height: 600px;
   background-color: #4D5AE5;
 }
 
+.portfolio {
+display: flex;
+flex-wrap: wrap;
+row-gap: 24px;
+column-gap: 48px;
+align-items: center;
+padding-top: 120x;
+padding-bottom: 120x;
+  }
+
+.portfolio-list {
+  width: calc((100%-48)3);
+}
+
 .portfolio >li .sub-item{
   
     background-color: #FFFFF;
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
-    text-align: : centre;
+    text-align: : center;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    display: flex;
+    align-items: center;
+    
 }
 
 
@@ -278,6 +294,12 @@ footer {
   line-height: 1.33;
   letter-spacing: 0.02em;
   text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  padding-top: 100px;
+  padding-bottom: 188px;
+  padding-left: 156px;
+  padding-right: 1169px;
   
 }
 
@@ -297,9 +319,15 @@ footer .text{
   color: white;
   font-size: 18px;
   font-weight: medium;
-  text-align: justify;
+  text-align: left;
   line-height: 1.17;
   letter-spacing: 0.03em;
+  box-sizing: border-box;
+  display: flex;
+  width: 264px;
+  height: 72px;
+  padding-bottom:100px;
+  margin-top: 16px;
   }
 
   
