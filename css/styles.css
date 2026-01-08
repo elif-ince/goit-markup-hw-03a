@@ -18,7 +18,6 @@ a {
 
 .hugetitle {
   background-color: #2E2F42;
-  margin-top: 72px;
   flex-direction: column;
 }
 
@@ -56,7 +55,7 @@ a {
 
 .page-header {
   background-color: #FFFFF;
-  color: #4D5AE5;
+  color: #FFFFF;
   font-size: 16px;
   font-weight: 700; 
   text-align: justify;
@@ -73,8 +72,11 @@ a {
 
 }
 
+.web-text {
+  color: #4D5AE5;
+}
 
-.page-header >a{
+.studio-link-header {
   font-family: "Railway", sans-serif;
   background-color: #FFFFF;
   color: #2e2f42;
@@ -83,8 +85,10 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration: none;
-  
-    }
+  padding-right: 76px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+      }
 
 .page-contacts {
   display: flex;
