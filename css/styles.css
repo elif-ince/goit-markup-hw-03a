@@ -5,6 +5,10 @@ body {
 .container {
   width: 1440px;
   margin: 0 auto;
+}
+
+* {
+  margin: 0;
   padding: 0;
 }
 
@@ -154,10 +158,12 @@ height: 600px;
 .company-principles {
   display: flex;
   flex-direction: row;
-  align-content: center;
+  align-content: left;
   justify-content: center;
   margin-top: 672;
   margin-bottom: 0;
+  padding-top: 120px;
+  padding-bottom: 120px;
   padding-right: 156px;
   padding-left: 156px;
   gap: 24px;
@@ -170,7 +176,7 @@ height: 600px;
   color: inherit;
   font-size: 20px;
   font-weight: 500;
-  text-align: center;
+  text-align: left;
   line-height: 1.2;
   letter-spacing: 0.02em;
   box-sizing: border-box;
@@ -185,9 +191,12 @@ height: 600px;
       box-sizing: border-box;
       padding-top: 72px;
       gap: 24px;
+      text-align: center;
       align-content: center;
       justify-content: center;
       align-items: center;
+      padding-top: 72px;
+      padding-bottom: 120px;
     }
 
 
@@ -203,6 +212,7 @@ height: 600px;
   box-sizing: border-box;
   margin-top: 32px;
   align-content: center;
+  justify-content: center;
 
 }
 
@@ -212,12 +222,13 @@ height: 600px;
   color: #434455;
   font-size: 16px;
   font-weight: 400;
-  text-align: : center;
   line-height: 1.5;
   letter-spacing: 0.02em;
   box-sizing: border-box;
   margin-top: 8px;
   align-items: center;
+  align-content: center;
+  justify-content: center;
 }
 
 .sub-title {
@@ -259,16 +270,12 @@ height: 600px;
 .portfolio {
 display: flex;
 flex-wrap: wrap;
-row-gap: 24px;
-column-gap: 48px;
+gap: 48px 24px;
 align-items: center;
 padding-top: 120x;
 padding-bottom: 120x;
+align-content: center;
   }
-
-.portfolio-list {
-  width: calc((100%-48)3);
-}
 
 .portfolio >li .sub-item{
   
@@ -276,34 +283,38 @@ padding-bottom: 120x;
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
-    text-align: : center;
     line-height: 1.2;
     letter-spacing: 0.02em;
     display: flex;
     align-items: center;
-    
+    align-content: center;
+      
 }
 
 
 footer {
   
   background-color: #2e2f42;
-  color: #4D5AE5;
+  color: white;
   font-size: 18px;
   text-align: justify;
   line-height: 1.33;
   letter-spacing: 0.02em;
   text-decoration: none;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   padding-top: 100px;
-  padding-bottom: 188px;
+  padding-bottom: 100px;
   padding-left: 156px;
-  padding-right: 1169px;
+  padding-right: 1020px;
   
 }
 
-footer > a {
+.web-text {
+color: #4D5AE5;
+}
+
+.studio-link {
   font-family: "Railway", sans-serif;
   background-color: #2e2f42;
   color: white;
@@ -323,10 +334,7 @@ footer .text{
   line-height: 1.17;
   letter-spacing: 0.03em;
   box-sizing: border-box;
-  display: flex;
-  width: 264px;
-  height: 72px;
-  padding-bottom:100px;
+  margin-bottom:100px;
   margin-top: 16px;
   }
 
