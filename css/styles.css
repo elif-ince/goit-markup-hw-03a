@@ -39,7 +39,7 @@ a {
 
 .page-subtitle {
   font-family: "Roboto", sans-serif;
-  background-color: white;
+  background-color: #F4F4FD;
   color: #2e2f42;
   font-size: 36px;
   font-weight: 700;
@@ -185,6 +185,11 @@ padding-bottom: 188px;
   height: 104;
   }
 
+  .personalfoto-duty { 
+    background-color: white;
+    
+
+  }
 
     .our-team {
       background-color: #F4F4FD;
@@ -197,14 +202,13 @@ padding-bottom: 188px;
       align-content: center;
       justify-content: center;
       align-items: center;
-      padding-top: 72px;
+      padding-top: 120px;
       padding-bottom: 120px;
     }
 
 
 .our-team .sub-item {
   font-family: "Roboto";
-  background-color: #FFFFF;
   color: #2E2F42;
   font-size: 20px;
   font-weight: 500;
@@ -215,9 +219,7 @@ padding-bottom: 188px;
   padding-top: 32px;
   align-content: center;
   justify-content: center;
-  background-color: white;
-
-}
+  }
 
 .duty {
   
@@ -231,7 +233,6 @@ padding-bottom: 188px;
   align-items: center;
   align-content: center;
   justify-content: center;
-  background-color: white;
   padding-bottom:32px;
 }
 
