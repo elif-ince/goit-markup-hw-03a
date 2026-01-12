@@ -56,6 +56,7 @@ a {
 .page-header {
   background-color: #FFFFF;
   color: #FFFFF;
+  border-bottom: 1px solid #E7E9FC;
   font-size: 16px;
   font-weight: 700; 
   text-align: justify;
@@ -187,6 +188,11 @@ padding-bottom: 188px;
 
   .personalfoto-duty { 
     background-color: white;
+    border-radius: 0 0 4px 4px;
+    box-shadow: 
+    0 2px 1px rgba(46, 47, 66, 0.08); /*left shadow ??*/
+    0 1px 1px rgba(46, 47, 66, 0.16); /*right shadow ??*/
+    0 1px 6px rgba(46, 47, 66, 0.08); /*under shadow??*/
   }
 
 .section-team {
@@ -194,19 +200,17 @@ padding-bottom: 188px;
 }
 
     .our-team {
-      
       display: flex;
       flex-direction: row;
       box-sizing: border-box;
       padding-top: 72px;
+      padding-bottom: 120px;
       gap: 24px;
       text-align: center;
       align-content: center;
       justify-content: center;
       align-items: center;
-      padding-top: 120px;
-      padding-bottom: 120px;
-    }
+     }
 
 
 .our-team .sub-item {
@@ -224,8 +228,6 @@ padding-bottom: 188px;
   }
 
 .duty {
-  
-  
   color: #434455;
   font-size: 16px;
   font-weight: 400;
@@ -235,6 +237,7 @@ padding-bottom: 188px;
   align-items: center;
   align-content: center;
   justify-content: center;
+  padding-top: 8px;
   padding-bottom:32px;
 }
 
@@ -281,14 +284,12 @@ gap: 48px 24px;
 padding-right: 156px;
 padding-left: 156px;
 align-items: center;
-padding-top: 120px;
+padding-top: 72px;
 padding-bottom: 120px;
 justify-content: center;
   }
 
 .portfolio >li .sub-item{
-  
-    
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
