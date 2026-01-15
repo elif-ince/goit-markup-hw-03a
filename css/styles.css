@@ -242,7 +242,6 @@ padding-bottom: 188px;
 }
 
 .sub-title {
-  
   background-color: #FFFFF;
   color: #2E2F42;
   font-size: 36px;
@@ -255,7 +254,6 @@ padding-bottom: 188px;
 
 
 .page-button {
-  
   background-color: #4D5AE5;
   color: white;
   font-size: 16px;
@@ -287,7 +285,6 @@ align-items: center;
 padding-top: 72px;
 padding-bottom: 120px;
 justify-content: center;
-border: 1px solid rgba(231, 233, 252, 1);
   }
 
 .portfolio >li .sub-item{
@@ -299,8 +296,11 @@ border: 1px solid rgba(231, 233, 252, 1);
     display: flex;
     align-items: center;
     align-content: center;
-      
-}
+  }
+
+.portfoliotexts-frame {
+  border: 1px solid rgba(231, 233, 252, 1);
+     }
 
 
 footer {
